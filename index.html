@@ -3,107 +3,125 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ahmed Medhat Fouad | QA Engineer & Developer</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0; padding: 0;
-      background-color: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background: #222;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-    h1, h2 {
-      color: #444;
-    }
-    a {
-      color: #007acc;
-      text-decoration: none;
-    }
-    .badge {
-      background: #0d1117;
-      color: #c9d1d9;
-      display: inline-block;
-      padding: 6px 10px;
-      border-radius: 4px;
-      margin-top: 4px;
-    }
-    .project {
-      margin-bottom: 1.5rem;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.8rem;
-      padding: 1rem;
-      color: #777;
-    }
-  </style>
+  <title>Ahmed Medhat | QA Engineer & Developer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1>Ahmed Medhat Fouad</h1>
-    <p>QA Engineer | Automation Developer | Remote-Ready Talent</p>
-    <p>
-      <a href="mailto:ahmedmedhat289@gmail.com">Email</a> |
-      <a href="https://linkedin.com/in/ahmed-medhat-17b205172">LinkedIn</a> |
-      <a href="https://github.com/ArchonOmega">GitHub</a>
-    </p>
+    <div class="container">
+      <h1>Ahmed Medhat Fouad</h1>
+      <p>QA Engineer | Automation Developer | Remote-Ready Talent</p>
+      <nav>
+        <a href="mailto:ahmedmedhat289@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/ahmed-medhat-17b205172">LinkedIn</a>
+        <a href="https://github.com/ArchonOmega">GitHub</a>
+        <a href="assets/resume.pdf" target="_blank">Resume</a>
+      </nav>
+    </div>
   </header>
 
-  <section>
-    <h2>🌟 Highlight Project</h2>
-    <div class="project">
-      <h3><a href="https://archonomega-crm-ticket-analyzer.streamlit.app">CRM Support Ticket Analyzer</a></h3>
-      <span class="badge">Python · Streamlit · Pandas · Plotly</span>
-      <p>An interactive app to analyze uploaded CRM ticket CSVs, visualizing key insights like category distribution, unresolved priorities, and resolution times.</p>
-      <p><a href="https://github.com/ArchonOmega/crm-ticket-analyzer">View on GitHub →</a></p>
-    </div>
-  </section>
+  <main class="container">
 
-  <section>
-    <h2>🛠 Other Projects</h2>
+    <section class="intro">
+      <h2>About Me</h2>
+      <p>
+        I’m a QA Engineer and CRM Developer with hands-on experience in automation, testing, and support. I build cloud-ready systems and clean test environments that scale. I’ve worked remotely, delivered internal tools, and collaborated with global teams.
+      </p>
+    </section>
 
-    <div class="project">
-      <h3><a href="https://github.com/ArchonOmega/xml-parser-zcatalyst">Zoho Catalyst XML Parser</a></h3>
-      <span class="badge">Python · Zoho Catalyst · FastAPI</span>
-      <p>Automates civil ID parsing and compliance enforcement by integrating Zoho Catalyst serverless workflows with REST APIs and alert triggers.</p>
-    </div>
+    <section class="projects">
+      <h2>Projects</h2>
 
-    <div class="project">
-      <h3><a href="https://github.com/ArchonOmega/demoblaze-selenium-tests">Demoblaze Selenium Test Suite</a></h3>
-      <span class="badge">Selenium · Python · GitHub Actions</span>
-      <p>End-to-end test suite for a demo e-commerce site, featuring automated UI flows, screenshot logging, and CI integration with GitHub Actions.</p>
-    </div>
+      <div class="project">
+        <h3>CRM Support Ticket Analyzer</h3>
+        <p>
+          A Streamlit app to visualize CRM ticket data by category, status, and unresolved priorities. Upload CSVs and instantly identify issues.
+        </p>
+        <a href="https://archonomega-crm-ticket-analyzer.streamlit.app" target="_blank">🔗 Live Demo</a> |
+        <a href="https://github.com/ArchonOmega/crm-ticket-analyzer" target="_blank">📁 GitHub</a>
+      </div>
 
-    <div class="project">
-      <h3>Cancer Health Support App</h3>
-      <span class="badge">Flutter · Firebase · Dart</span>
-      <p>Mobile symptom tracker app to help oncology patients log and share health data. Built with Firebase integration and team collaboration.</p>
-      <p><a href="https://docs.google.com/presentation/d/1sNik5TjNXc_qQraXPz31GbJZANqO719Q/edit">Presentation Slides →</a></p>
-    </div>
+      <div class="project">
+        <h3>Zoho Catalyst XML Parser</h3>
+        <p>
+          Parses civil ID XML documents, updates CRM accounts, and sends alerts for flagged records using Zoho Catalyst’s serverless tools.
+        </p>
+        <a href="https://github.com/ArchonOmega/xml-parser-zcatalyst" target="_blank">📁 GitHub</a>
+      </div>
 
-    <div class="project">
-      <h3>Movie Recommendation System</h3>
-      <span class="badge">Java</span>
-      <p>Academic project implementing personalized movie suggestions based on rating similarities and filtering rules.</p>
-    </div>
-  </section>
+      <div class="project">
+        <h3>Demoblaze Selenium Test Suite</h3>
+        <p>
+          End-to-end automated UI test suite for an e-commerce demo site, with GitHub Actions CI integration and failure diagnostics.
+        </p>
+        <a href="https://github.com/ArchonOmega/demoblaze-selenium-tests" target="_blank">📁 GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>Cancer Health Support App</h3>
+        <p>
+          A mobile Flutter app for tracking patient symptoms and sending reports to oncologists. Firebase backend and team development.
+        </p>
+        <a href="https://docs.google.com/presentation/d/1sNik5TjNXc_qQraXPz31GbJZANqO719Q/edit" target="_blank">🎓 Demo Slides</a>
+      </div>
+
+      <div class="project">
+        <h3>Movie Recommendation System</h3>
+        <p>
+          Academic Java project using collaborative filtering to suggest movies based on user rating history.
+        </p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+
+      <div class="skill">
+        <span>Python</span>
+        <div class="skill-bar"><div class="level" style="width: 90%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Selenium</span>
+        <div class="skill-bar"><div class="level" style="width: 85%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Zoho CRM / Catalyst</span>
+        <div class="skill-bar"><div class="level" style="width: 80%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>API Testing (Postman)</span>
+        <div class="skill-bar"><div class="level" style="width: 75%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Java</span>
+        <div class="skill-bar"><div class="level" style="width: 70%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Git & GitHub Actions</span>
+        <div class="skill-bar"><div class="level" style="width: 80%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>FastAPI / Flask</span>
+        <div class="skill-bar"><div class="level" style="width: 70%;"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Flutter / Firebase</span>
+        <div class="skill-bar"><div class="level" style="width: 60%;"></div></div>
+      </div>
+    </section>
+
+  </main>
 
   <footer>
-    © 2025 Ahmed Medhat Fouad — Built with ❤️ using HTML & GitHub Pages
+    <p>© 2025 Ahmed Medhat Fouad — Built with ❤️ and GitHub Pages</p>
   </footer>
 
 </body>
